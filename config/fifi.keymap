@@ -35,10 +35,10 @@
 
     default_layer {
       bindings = <
- &kp Q      &kp W      &kp F       &kp P        &kp B      &kp J       &kp L         &kp U       &kp Y      &kp APOS
- &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G      &kp M       &hm RSHIFT N  &hm RCTRL E &hm RALT I &hm RGUI O
- &kp Z      &kp X      &kp C       &kp D        &kp V      &kp K       &kp H         &kp COMMA   &kp DOT    &kp FSLH
-                       &lt MET ESC &lt SYM TAB  &kp SPACE  &lt FUN RET &lt NAV BSPC  &lt MET CARET
+ &hm ESC Q      &kp W      &kp F       &kp P        &kp B          &kp J       &kp L         &kp U       &kp Y      &kp APOS
+ &hm LGUI A     &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G          &kp M       &hm RSHIFT N  &hm RCTRL E &hm RALT I &hm RGUI O
+ &kp Z          &kp X      &kp C       &kp D        &kp V          &kp K       &kp H         &kp COMMA   &kp DOT    &kp FSLH
+                           &none       &lt MET TAB  &lt SYM SPACE  &lt FUN RET &lt NAV BSPC  &none 
       >;
     };
 
@@ -46,7 +46,7 @@
       bindings = <
  &kp PRCNT  &kp CARET   &kp GRAVE  &kp TILDE  &none       &none      &kp LT        &kp GT       &kp LBKT  &kp RBKT
  &kp AT     &kp HASH    &kp EXCL   &kp QMARK  &kp AMPS    &kp EQUAL  &kp LPAR      &kp RPAR     &kp LBRC  &kp RBRC
- &none      &none       &kp DLLR   &kp SEMI   &kp PIPE    &kp UNDER  &kp COLN      &none        &none     &none
+ &none      &none       &kp DLLR   &kp SEMI   &kp PIPE    &kp UNDER  &kp COLN      &none        &none     &kp BSLH
                         &trans     &trans     &trans      &trans     &kp CAPS      &trans
       >;
     };
